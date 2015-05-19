@@ -15,3 +15,9 @@ exports.squarearea = function (s) {
 exports.squareperimeter = function (s) {
   return s * 4;
 };
+exports.trianglearea = function (b,h) {
+  return (b * h)/2 ;
+};
+exports.triangleperimeter = function (a,b,c) {
+  return a + b + c ;
+};
